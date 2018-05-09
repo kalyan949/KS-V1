@@ -22,8 +22,8 @@ main {
 .sidebar {
   height: 100%;
   width: 400px;
-  position: fixed;
   top: 0;
+  position: absolute;
   z-index: 1;
   right: 0;
   background-color: #EF8354;
@@ -114,6 +114,38 @@ main {
 
 nav {
   padding-top: 30px;
+}
+
+.sum{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  height: 20rem;
+  width: 100%;
+  opacity: 1;
+}
+
+.chaitu{
+  font-size: 1.6rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  color: lightsalmon;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  transition: all 1s;
+}
+.chaitu:hover{
+  color: olive;
+  font-size: 5rem;
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  transform: rotateX(35deg);
+  color: maroon;
+  transition: all 1s;
+}
+.sumanth:hover{
+  transform: rotateY(70deg); 
+  background-color: olive;
 }
 
 .sidebar-list {
