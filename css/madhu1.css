@@ -1,0 +1,11 @@
+legend{
+    text-align:center;
+    color:cyan;
+    margin:150px;
+}
+fieldset{
+    margin:250px;
+    width:250px;
+    background-color:grey;
+    background-image: url('../images/natural.jpg');
+}
